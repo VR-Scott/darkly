@@ -1,14 +1,14 @@
 # Where: <br>
     /?page=searchimg
 # How:
-    -By entering<br>
-
+    -By entering
+    <br>
     -1 union _select_ null, concat (table_name) from information_schema.tables where table_schema = database ()
-
+    <br>
     -Change the value of 1 of the options to an invalid value.
-
+    <br>
     Or
-
+    <br>
     -Add an invalid option.
 
     -Select the invalid value
