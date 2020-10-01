@@ -4,6 +4,7 @@
     -By entering
     `-1 union select null, concat (table_name) from information_schema.tables where table_schema = database ()`
     -Change the value of 1 of the options to an invalid value.
+    `code`
     Or
     -Add an invalid option.
     -Select the invalid value
