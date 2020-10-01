@@ -43,12 +43,12 @@
 
     Hack me ?If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
 
--If we decrypt *1928e8083cf461a51303633093573c46* at [MD5 Online](https://www.md5online.org/md5-decrypt.html)
-Or
--Add an invalid option.
--Select the invalid value
--Receive the flag
+-If we decrypt *1928e8083cf461a51303633093573c46* at [MD5 Online](https://www.md5online.org/md5-decrypt.html) we receive the word *albatroz*
+-Which we then hash using sha256 at [sha256 hash calculator](https://xorbin.com/tools/sha256-hash-calculator) to receive the flag.
+
 # Flag:
-03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA
+f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
+
 # Fix:
-Store options server side/on backend.All user input should be sanitised and validated (backend).
+Use prepared statements to prevent sql injections.
+I do also believe sha256 is a better hash to use.
