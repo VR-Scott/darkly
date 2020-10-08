@@ -1,4 +1,4 @@
-# Where: <br>
+# Where:
     /?page=searchimg
 # How:
 -By entering:

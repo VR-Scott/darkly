@@ -1,4 +1,4 @@
-# Where: <br>
+# Where:
     /?page=member
 # How:
 -By entering:
