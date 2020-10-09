@@ -37,5 +37,5 @@ Malicious users can access important info like passwords making it insecure.
 
 # Fix:
 
-Implement a router that checks routes and then handles them accordingly
+Implement a router that checks routes and then handles them accordingly<br>
 Block direct access to directories or files using a .htaccess or similar file

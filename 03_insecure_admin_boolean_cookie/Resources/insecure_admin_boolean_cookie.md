@@ -27,5 +27,5 @@
 As seen here malicious users can change the value of the cookies giving them selves Admin privilege etc. 
 
 # Fix:
-Set sensitive values in [session variables](https://www.w3schools.com/php/php_sessions.asp) rather than cookies.
+Set sensitive values in [session variables](https://www.w3schools.com/php/php_sessions.asp) rather than cookies.<br>
 I do also believe sha256 is a better hash to use especialy when combined with a salt. 

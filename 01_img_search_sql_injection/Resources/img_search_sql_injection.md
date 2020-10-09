@@ -53,5 +53,5 @@
 Hackers could potentially access all info in your BD even hashed passwords could potentially be decrypted using sites.
 
 # Fix:
-Use [prepared statements](https://www.w3schools.com/php/php_mysql_prepared_statements.asp) to prevent sql injections.
+Use [prepared statements](https://www.w3schools.com/php/php_mysql_prepared_statements.asp) to prevent sql injections.<br>
 I do also believe sha256 is a better hash to use especialy when combined with a salt.

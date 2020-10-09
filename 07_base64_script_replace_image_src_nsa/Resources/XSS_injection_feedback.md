@@ -27,6 +27,6 @@ Can trick the client-side into running a malicious script.
 
 # Fix:
 
-Don't take the source of an image as a variable in the url.
-Rather have source stored somewhere secure and use ids to tell back end which source to use.
-If you have to send the source rather use POST.
+Don't take the source of an image as a variable in the url.<br>
+Rather have source stored somewhere secure and use ids to tell back end which source to use.<br>
+If you have to send the source rather use POST.<br>
