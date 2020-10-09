@@ -2,19 +2,30 @@
     /
 # How:
 
--Inspect a social media link element.
+-Inspect any element.
 
--change the *site* parameter of the href.
-
--Click on the social media link
+-Click on the Application tab.
     
--Get the flag.
+-On the left side under the *storage* heading click on the *Cookies* dropdown.
+
+-Click on the url.
+
+-We find the *I_am_admin* cookie and decrypt it's value at [MD5 Online](https://www.md5online.org/md5-decrypt.html) to get:
+
+    false
+    
+-We then hash *true* using MD5 at [MD5 Online](https://www.md5online.org) to get:
+
+    b326b5062b2f0e69046810717534cb09
+
+-We add this hash value into the cookie and refresh the flag appears in the form of an alert.
 
 # Flag:
-B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3
+df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
 
 # Possible abuses:
-Can use man in middle attack tpo redirect user to a malicious website while making it look legitimate.
+As seen here malicious users can change the value of the cookies giving them selves Admin privilege etc. 
 
 # Fix:
-Use an id for specific website and do the redirect on back-end depending on the id.
+Set sensitive values in [session variables](https://www.w3schools.com/php/php_sessions.asp) rather than cookies.
+I do also believe sha256 is a better hash to use especialy when combined with a salt. 
