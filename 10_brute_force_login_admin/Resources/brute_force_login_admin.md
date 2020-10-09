@@ -31,7 +31,7 @@ OR
     done
     echo -e "\nPassword is not in list\n"
 
--curl is a tool to transfer data from or to a server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, GOPHER, DICT, TELNET, LDAP or FILE).
+- curl is a tool to transfer data from or to a server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, GOPHER, DICT, TELNET, LDAP or FILE).
 
 - *--silent* stops the *workings* outputs so as to only give the final output.
 
@@ -41,7 +41,7 @@ OR
 
 - We POST *admin* as username and each *i* in the list of passwords as the password.
 
--We grep the HTML each time to only get the line with the flag.
+- We grep the HTML each time to only get the line with the flag.
 
 # Flag:
     b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
@@ -52,5 +52,5 @@ Malicious users can access other accounts.
 
 # Fix:
 
-Better password requirements would make a bruteforce attack a lot more difficult.
+Better password requirements would make a bruteforce attack a lot more difficult.<br>
 Using POST instead of GET also makes it more difficult for malicious users to see how the info is passed.
