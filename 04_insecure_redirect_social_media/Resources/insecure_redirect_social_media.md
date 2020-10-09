@@ -11,7 +11,7 @@
 -Get the flag.
 
 # Flag:
-B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3
+    B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3
 
 # Possible abuses:
 Can use man in middle attack tpo redirect user to a malicious website while making it look legitimate.

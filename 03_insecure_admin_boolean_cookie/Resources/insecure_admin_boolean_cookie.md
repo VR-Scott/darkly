@@ -21,7 +21,7 @@
 -We add this hash value into the cookie and refresh the flag appears in the form of an alert.
 
 # Flag:
-df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
+    df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
 
 # Possible abuses:
 As seen here malicious users can change the value of the cookies giving them selves Admin privilege etc. 
