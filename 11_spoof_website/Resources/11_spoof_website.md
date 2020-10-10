@@ -2,7 +2,9 @@
     /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
 # How:
 
--Click the copyright redirect at the bottom of the page. This takes you to /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c.
+-Click the copyright redirect at the bottom of the page. This takes you to :
+
+    /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c.
 
 -Inspect the page and read through/search the source code until you find 'You must cumming from : "https://www.nsa.gov/" to go to the next step'.
 
