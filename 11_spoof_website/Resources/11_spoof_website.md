@@ -31,10 +31,10 @@
 
 # Possible abuses:
 
-Could possibly get special access due to coming from a specific site.
+Could possibly get special access due to coming from a specific site.<br>
 May be used for XSS?
 
 # Fix:
 
-Don't trust referer find more secure way to validate referals.
+Don't trust referer find more secure way to validate referals.<br>
 Use a unique/token to prove they came from the legitimate referer.
