@@ -8,15 +8,21 @@
 
 -Create cURL script that uses --referer (nsa.gov) and agent (ft_bornToSec) to return html. *spoof_site_nsa.sh*
 
+    #!/bin/sh
+
+    ip="192.168.56.101" && [[ "$1" ]]  && ip="$1"
+
+    curl --silent -A 'ft_bornToSec' --referer "https://www.nsa.gov/" "${ip}/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c" | grep "flag"
+
 - *curl* is a tool to transfer data from or to a server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, GOPHER, DICT, TELNET, LDAP or FILE).
 
 - *--silent* stops the *workings* outputs so as to only give the final output.
 
-- *-X Post* tells curl we want to make a POST request.
+-We change the header info.
 
-- *ip* is the ip address passed as an ARG.
+- *-A 'ft_bornToSec'* tells curl that the *Agent(browser)* is *ft_bornToSec*
 
-- We POST *admin* as username and each *i* in the list of passwords as the password.
+- *--referer "https://www.nsa.gov/"* tells curl that we came from *https://www.nsa.gov/*
 
 - We *grep* the HTML each time to only get the line with the *flag*.
 
@@ -25,8 +31,10 @@
 
 # Possible abuses:
 
-<!-- XSS? -->
+Could possibly get special access due to coming from a specific site.
+May be used for XSS?
 
 # Fix:
 
-Protect again cURL spoofing using HTML headers. ?
+Don't trust referer find more secure way to validate referals.
+Use a unique/token to prove they came from the legitimate referer.
