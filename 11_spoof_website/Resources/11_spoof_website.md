@@ -26,7 +26,7 @@
 
 - *--referer "https://www.nsa.gov/"* tells curl that we came from *https://www.nsa.gov/*
 
-- We *grep* the HTML each time to only get the line with the *flag*.
+- We *grep* the HTML to only get the line with the *flag*.
 
 # Flag:
     f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
