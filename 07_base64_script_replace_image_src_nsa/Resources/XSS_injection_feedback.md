@@ -6,7 +6,7 @@
 
 -Encode the following script into base 64 using [Base 64](https://www.base64encode.org/)
 
-    (<script>alert('this works')</script>)
+    <script>alert('this works')</script>
 
 -Get following hash:
 
